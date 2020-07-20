@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
     public void startGame(View view)
     {
         androidx.gridlayout.widget.GridLayout gridLayout = findViewById(R.id.gridLayout);
-        ImageView appLogo = (ImageView) findViewById(R.id.applogo);
-        Button playButton =(Button) findViewById(R.id.playButton);
-        TextView text =(TextView) findViewById(R.id.text);
+        ImageView appLogo = findViewById(R.id.applogo);
+        Button playButton = findViewById(R.id.playButton);
+        TextView text = findViewById(R.id.text);
 
         gridLayout.setTranslationX(-2500);
         gridLayout.setVisibility(View.VISIBLE);
